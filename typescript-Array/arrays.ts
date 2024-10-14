@@ -16,15 +16,15 @@ let arrayBoolean :boolean[]=[true,false,true]
 arrayBoolean[0]=false
 console.log(arrayBoolean);
 
-//Array mixed :
+//Array tuple mixed :
 let arrayMixed :[string,number,boolean]=["hello",12,true]
 console.log(arrayMixed);
 
-//Array Any :
+//Array Any:
 let arrayAny :any[]=["yes","No",1,2,3,true ,false] 
 console.log(arrayAny);
 
-// Array with read only 
+// Array with read only: 
 let arrayReadOnly : readonly number[]=[1,2,3,45,6]
 console.log(arrayReadOnly);
 
