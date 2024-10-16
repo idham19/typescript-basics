@@ -21,3 +21,13 @@ const dog= new Animals("doggy",3,"white")
 console.log(cat);
 console.log(dog);
 
+
+class Person {
+ name:string;
+ age:number
+    constructor(name:string,age:number){
+        this.name=name;
+        this.age=age;
+    }
+}
+
